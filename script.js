@@ -4,7 +4,7 @@ let nota2 = 11;
 let trabajoFinal = 20;
 
 // Calcular el promedio ponderado final
-ler promedio = (nota1 * 0.3) + (nota2 * 0.3) + (trabajoFinal * 0.4);
+let promedio = (nota1 * 0.3) + (nota2 * 0.3) + (trabajoFinal * 0.4);
 
 // Mostrar las notas y el resultado final
 console.log("Nota 1:", nota1);
