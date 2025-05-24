@@ -11,3 +11,12 @@ console.log("Nota 1:", nota1);
 console.log("Nota 2:", nota2);
 console.log("Trabajo Final:", trabajoFinal);
 console.log("Promedio final:", promedio.toFixed(2));
+
+// Verificar el estado del estudiante
+if (promedio >= 14) {
+  console.log("Aprobado directamente");
+} else if (promedio >= 10) {
+  console.log("Debe ir a recuperación");
+} else {
+  console.log("No aprueba la materia");
+}
